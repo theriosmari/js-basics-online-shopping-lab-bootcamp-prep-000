@@ -10,7 +10,9 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+
+  n = (Math.floor(Math.random() * (100 - 0)))
+  cart.push(item: ${n} )
 }
 
 function viewCart() {
